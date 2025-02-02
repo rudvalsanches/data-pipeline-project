@@ -14,13 +14,23 @@ Este projeto demonstra uma arquitetura completa de Engenharia de Dados, incluind
 ## 📂 Estrutura do Projeto:# data-pipeline-project
 
 📁 data-pipeline-project 
+
 │── 📁 airflow/ # DAGs do Airflow 
+
 │── 📁 ingestion/ # Scripts de ingestão (Python) 
+
 │── 📁 processing/ # Scripts de processamento (Spark/Pandas) 
+
 │── 📁 storage/ # Configuração do PostgreSQL e MinIO 
+
 │── 📁 monitoring/ # Prometheus e Grafana 
+
 │── 📁 visualization/ # Configuração do Metabase 
+
 │── 📁 docker/ # Arquivos Docker 
+
 │── 📄 README.md # Documentação 
+
 │── 📄 docker-compose.yml # Arquitetura Docker 
+
 │── 📄 requirements.txt # Dependências do Python
